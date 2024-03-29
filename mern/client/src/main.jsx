@@ -31,6 +31,7 @@ const router = createBrowserRouter([
     ],
   },
   {
+    
     path: "/edit/:id",
     element: <App />,
     children: [
